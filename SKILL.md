@@ -57,3 +57,7 @@ Sources: [Google's code-review guidance on design, complexity, useful tests, nam
 - Keep the requested behavior and scope central. Preserve unrelated behavior during a refactor, and distinguish an intentional behavior change from structural cleanup.
 - When a consequential tradeoff is involved, explain the relevant choice briefly. Ordinary changes do not need a design document or a report covering every principle.
 - State what was actually verified and any material limitation. Successful parsing, compilation, or an isolated test does not by itself establish all runtime, visual, or integration behavior.
+
+## Briefly report the application
+
+End with a concise summary of the guidance actually used and its concrete effect on the code or decisions. Combine this with the normal outcome summary and notes from other skills; respect exact output formats and distinguish recommendations from implemented changes. Mention only principles that materially shaped the work, not the whole reference table.
